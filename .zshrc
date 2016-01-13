@@ -49,7 +49,7 @@ ZSH_THEME="robbyrussell"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git brew bower docker fabric npm pip python redis-cli sublime sudo web-search)
+plugins=(git brew bower docker fabric npm pip python redis-cli sublime sudo web-search osx)
 
 # User configuration
 
@@ -91,3 +91,4 @@ mkdircd() {
     #Make path for each argument and cd into the last path 
     mkdir -p "$@" && cd "$_" 
 }
+TERM=xterm-256color
