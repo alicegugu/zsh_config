@@ -1,1 +1,4 @@
 alias cb='cd ~/code_base'
+export WORKON_HOME=~/virtual_enviroment
+source /usr/local/bin/virtualenvwrapper.sh
+
