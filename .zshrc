@@ -93,3 +93,4 @@ mkdircd() {
     mkdir -p "$@" && cd "$_" 
 }
 TERM=xterm-256color
+source ~/.zsh_profile
